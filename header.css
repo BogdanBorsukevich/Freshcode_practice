@@ -1,0 +1,112 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    padding: 2.2em 3.94em;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; 
+}
+
+.logo {
+    width: 9vw;
+    height: 9vh;
+    object-fit: contain;
+}
+
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item {
+    margin-left: 3.1em;
+}
+
+.blue-button1 {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin-left: 1.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-container {
+        padding: 1em 1em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 8vw;
+        height: auto;
+    }
+
+    .menu-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-item {
+        margin-left: 1em;
+        font-size: 0.8em;
+    }
+
+    .blue-button1 {
+        text-transform: uppercase;
+        background-color: #7AE5FD;
+        border-radius: 4.8em;
+        padding: 0.7em 1.2em;
+        font-size: 0.5em;
+        margin-left: 1em;
+        width: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .header-container {
+        padding: 2em 2em;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        width: 12vw;
+        height: auto;
+    }
+
+    .menu-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin-left: 2em;
+        font-size: 1em;
+    }
+
+    .blue-button {
+        padding: 1em 1.8em;
+        font-size: 1em;
+        margin-left: 1.3em;
+        width: auto;
+        margin-top: 30%;
+    }
+}

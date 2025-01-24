@@ -1,0 +1,117 @@
+.block-img {
+    max-width: 40vw;
+    border-radius: 2%;
+}
+
+.description-screen {
+    padding: 5vw;
+}
+
+.description-block {
+    display: flex;
+    flex-direction: row;
+    background-color: #F1FDFF;
+    padding: 5vh 3vw;
+}
+
+.desc-header{
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 2.5em;
+        word-wrap: break-word;
+    }
+
+.desc-text{
+    line-height: 1.6;
+}
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin-left: 1.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .block-img {
+        max-width: 50vw;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .description-block {
+        flex-direction: column;
+        padding: 4vh 2vw;
+    }
+
+    .desc-header {
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .desc-text {
+        font-size: 1.1em;
+        text-align: center;
+    }
+
+    .blue-button {
+        padding: 1em 1.6em;
+        margin-left: 0;
+        margin-top: 1em;
+        font-size: 1.5vw;
+        border-radius: 1vw;
+    }
+
+    .container {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .block-img {
+        max-width: 70vw;
+        margin-bottom: 2em;
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .description-block {
+        flex-direction: column;
+        padding: 3vh 2vw;
+    }
+
+    .desc-header {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .desc-text {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .blue-button {
+        padding: 0.9em 1.5em;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .container {
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

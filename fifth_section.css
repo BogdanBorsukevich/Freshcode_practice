@@ -1,0 +1,120 @@
+.support {
+    display: block;
+    margin-bottom: 5%;
+}
+
+.support-header {
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 3em;
+    word-wrap: break-word;
+}
+
+.paragraph1 {
+    margin-top: -2%;
+    text-align: center;
+    font-size: 1.05em;
+    color: #73A6B1;
+}
+
+.paragraph2 {
+    margin-top: 4%;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: -1%;
+}
+
+.numbers-row {
+    font-size: 2em;
+    color: #000;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.blue-button {
+    text-transform: uppercase;
+    background-color: #7AE5FD;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    margin-left: 1.3em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .support {
+        margin-bottom: 5%;
+        padding: 0 2em;
+    }
+
+    .support-header {
+        font-size: 2em;
+        margin-bottom: 1em;
+    }
+
+    .paragraph1 {
+        font-size: 0.95em;
+        margin-top: 2%;
+    }
+
+    .paragraph2 {
+        font-size: 1em;
+        margin-top: 2%;
+        margin-bottom: 3%;
+    }
+
+    .numbers-row {
+        font-size: 1.6em;
+        margin-top: 1.5em;
+        gap: 1.2em;
+    }
+
+    .blue-button {
+        padding: 1em 1.5em;
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-top: 1.5em;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .support {
+        padding: 2em 4%;
+        margin-bottom: 5%;
+    }
+
+    .support-header {
+        font-size: 2.5em;
+        margin-bottom: 1.2em;
+    }
+
+    .paragraph1 {
+        font-size: 1em;
+        margin-top: 2%;
+    }
+
+    .paragraph2 {
+        font-size: 1.1em;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .numbers-row {
+        font-size: 1.8em;
+        margin-top: 2em;
+        gap: 1.5em;
+    }
+
+    .blue-button {
+        padding: 1.1em 1.7em;
+        font-size: 1em;
+        margin-left: 0;
+        margin-top: 1.5em;
+        width: auto;
+    }
+}

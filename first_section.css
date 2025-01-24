@@ -1,0 +1,139 @@
+.first-screen {
+    background-image: url('./Pictures/Frame.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.first-screen-container {
+    width: 50%;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 4.06em;
+    line-height: 1;
+}
+
+.first-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+    text-align: center;
+}
+
+.first-header {
+    color: #fff;
+    font-size: 2.8em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+    text-align: left;
+    margin-left: -50vw;
+    line-height: 1.2;
+    margin-top: -20vh;
+}
+
+.first-paragraph {
+    color: #000000;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    text-align: left;
+    margin-left: -59.5vw;
+    margin-top: -0.5%;
+}
+
+.white-button {
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 1.15em 1.94em;
+    border-radius: 4.8em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    margin-left: -65.5vw;
+    margin-top: 0.5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .first-screen {
+        background-position: left;
+        margin-top: 20hv;
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .first-screen-container {
+        width: 100%;
+    }
+
+    .main-title {
+        font-size: 2.5em;
+    }
+
+    .first-header {
+        font-size: 1.8em;
+        margin-left: 0;
+        margin-top: -10vh;
+        text-align: center;
+    }
+
+    .first-paragraph {
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-top: -2%;
+        text-align: center;
+    }
+
+    .white-button {
+        padding: 1em 1.5em;
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .first-screen {
+        background-position: center;
+        margin-top: 0;
+    }
+
+    .first-screen-container {
+        width: 60%;
+    }
+
+    .main-title {
+        font-size: 3em;
+    }
+
+    .first-header {
+        font-size: 2.3em;
+        margin-left: -30vw;
+        margin-top: 15vh;
+    }
+
+    .first-paragraph {
+        font-size: 1em;
+        margin-left: -37vw;
+        margin-top: -0.5%;
+        text-align: center;
+    }
+
+    .white-button {
+        padding: 1.1em 1.8em;
+        font-size: 1em;
+        margin-left: -38vw;
+        margin-top: 1.5em;
+    }
+}

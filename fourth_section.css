@@ -1,0 +1,105 @@
+.kids {
+    background-color: #F1FDFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    position: relative;
+    min-height: 40vh;
+    margin: 10% 5%;
+}
+
+.back-img {
+    position: absolute;
+    top: -20%;
+    right: 0;
+    width: 45vw;
+    z-index: 1;
+    opacity: 1;
+}
+
+.children-img {
+    position: absolute;
+    right: 17%;
+    top: -43%;
+    height: 70vh;
+    width: auto;
+    z-index: 2;
+}
+
+.mission {
+    z-index: 3;
+    max-width: 40%;
+    font-size: 1.5em;
+    line-height: 1.5;
+    color: #000;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .kids {
+        padding: 3em 2em;
+        margin: 5% 3%;
+        flex-direction: column;
+        min-height: 60vh;
+    }
+
+    .back-img {
+        top: -5%;
+        right: 5%;
+        height: 60vw;
+        width: auto;
+    }
+
+    .children-img {
+        top: -20%;
+        right: 10%;
+        height: 50vh;
+        width: auto;
+    }
+
+    .mission {
+        max-width: 80%;
+        font-size: 1.3em;
+        line-height: 1.4;
+        text-align: center;
+        margin-top: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .kids {
+        padding: 2em 1em;
+        margin: 5% 2%;
+        flex-direction: column;
+        min-height: 60vh;
+        position: relative;
+    }
+
+    .back-img {
+        height: 50%;
+        width: auto;
+        object-fit: cover;
+        opacity: 0.8;
+        margin-bottom: 2em;
+        margin-top: 35vh;
+    }
+
+    .children-img {
+        height: 60%;
+        width: auto;
+        margin-bottom: 2em;
+        object-fit: contain;
+        margin-top: 38vh;
+        display: block;
+    }
+
+    .mission {
+        max-width: 90%;
+        font-size: 1.1em;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 25em;
+        z-index: 3;
+    }
+}
+
